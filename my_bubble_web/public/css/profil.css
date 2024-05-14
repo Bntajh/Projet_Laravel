@@ -1,0 +1,131 @@
+body {
+    background-image: url('/images/image5.png');
+    background-repeat: repeat;
+
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+}
+
+.container {
+    clear: both;
+    overflow: auto;
+}
+
+nav {
+    float: right;
+}
+
+.logo img {
+    float: left;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+ul li:hover a {
+    color: #FF9C9C;
+}
+
+
+.profil {
+    width: 430px;
+    height: 660px;
+    flex-shrink: 0;
+    border: 1px solid #FF9C9C;
+    background: #E7D1C4;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    right: 35%;
+}
+
+
+.profil1 {
+    width: 252px;
+    height: 244px;
+    flex-shrink: 0;
+    margin: 0px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FF9C9C;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #FFC0CB;
+}
+
+
+
+.border {
+    width: 252px;
+    height: 244px;
+    flex-shrink: 0;
+    fill: #FF9C9C;
+}
+
+.button,
+.button1,
+.button2 {
+    width: 303px;
+    height: 51px;
+    flex-shrink: 0;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+}
+
+.button {
+    background: #FF9C9C;
+}
+
+.button1 {
+    background: #FE7B7B;
+}
+
+.button2 {
+    background: #E66353;
+}
+
+.nom {
+    width: 98px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: +20px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FF9C9C;
+    color: #000;
+}
